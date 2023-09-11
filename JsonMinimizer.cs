@@ -51,7 +51,7 @@ namespace JsonMinimizer
                     } 
                     if (StringProcess == false)
                     {
-                        if (ch == ' ')
+                        if (ch == ' ' || ch == '\n' || ch == '\r' || ch == '\t')
                         {
                             continue;
                         }
